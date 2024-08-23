@@ -1,5 +1,5 @@
 // Цвета для категорий
-const colors = ["#8e44ad", "#3498db", "#e67e22", "#e74c3c", "#2ecc71"];
+const colors = ["#FFA726", "#3F51B5", "#00ACC1", "#8E24AA", "#F44336"];
 
 // Функция для выбора случайного вопроса
 function getRandomQuestion(categoryIndex) {
