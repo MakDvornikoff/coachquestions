@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квантовая реальность</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Работа с квантовой реальностью</h1>
+    
+    <!-- Кнопки для категорий с цветными иконками -->
+    <div class="category-buttons">
+        <button onclick="getRandomQuestion(0)">
+            <span class="icon icon-purple"></span>Категория 1
+        </button>
+        <button onclick="getRandomQuestion(1)">
+            <span class="icon icon-blue"></span>Категория 2
+        </button>
+        <button onclick="getRandomQuestion(2)">
+            <span class="icon icon-orange"></span>Категория 3
+        </button>
+        <button onclick="getRandomQuestion(3)">
+            <span class="icon icon-red"></span>Категория 4
+        </button>
+        <button onclick="getRandomQuestion(4)">
+            <span class="icon icon-green"></span>Категория 5
+        </button>
+    </div>
+    
+    <!-- Поле для вывода вопроса -->
+    <div>
+        <h2>Выбранный вопрос:</h2>
+        <p id="questionOutput"></p>
+    </div>
+    
+    <!-- История вопросов -->
+    <div class="history">
+        <h2>История вопросов:</h2>
+        <ul id="questionHistory"></ul>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
