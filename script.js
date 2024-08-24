@@ -18,5 +18,5 @@ function getRandomQuestion(categoryIndex) {
     history.appendChild(historyItem);
 
     // Автоматическая прокрутка вниз
-    history.scrollTop = history.scrollHeight;
+    history.scrollTop = 9999;//history.scrollHeight;
 }
